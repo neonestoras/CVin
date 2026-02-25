@@ -1,11 +1,11 @@
-import { useState, useEffect, useCallback } from "react";
+import { useState, useEffect } from "react";
 import {
   Newspaper, FileText, ClipboardList, User, Inbox, BarChart3, Star,
   PartyPopper, CheckCircle2, Award, Clock, Lock, Unlock, Target,
-  Briefcase, TrendingUp, Handshake, Sparkles, AlertCircle, Check,
-  X, Circle, ChevronRight, Users, Trophy, ArrowRight, ArrowUpRight,
-  Quote, Eye, Shield, Calendar, CircleDot, Settings, FileCheck,
-  AlertTriangle, Zap, BookOpen, Heart, MessageCircle
+  Briefcase, TrendingUp, Handshake, Sparkles, X,
+  Circle, ChevronRight, Users, Trophy, ArrowRight,
+  Quote, Calendar,
+  AlertTriangle, Zap
 } from "lucide-react";
 import {
   AreaChart, Area, LineChart, Line, XAxis, YAxis, CartesianGrid,
