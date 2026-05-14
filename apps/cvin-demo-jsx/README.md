@@ -2,6 +2,10 @@
 
 A React-based demonstration of the CVin platform for impact-driven career development and peer review.
 
+🔗 **[View Live Demo](https://neonestoras.github.io/CVin)**
+
+📄 **[CVin Whitepaper](https://github.com/neonestoras/Sidequest-Ossuary/blob/main/CV_Clinic.md)**
+
 ## Getting Started
 
 ### Prerequisites
@@ -33,14 +37,13 @@ Builds the app for production to the `build` folder.
 
 ## Deployment
 
-This app can be deployed to Vercel, Netlify, or any static hosting platform.
+### Deploying to GitHub Pages
 
-### Deploying to Vercel
+```bash
+npm run deploy
+```
 
-1. Connect your GitHub repository to Vercel
-2. Set the **Root Directory** to `apps/cvin-demo-jsx`
-3. Vercel will automatically detect React and build accordingly
-4. Deploy!
+This builds the app and automatically deploys it to GitHub Pages. The live demo is available at [https://neonestoras.github.io/CVin](https://neonestoras.github.io/CVin).
 
 ### Environment Variables
 
