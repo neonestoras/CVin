@@ -1,78 +1,79 @@
-# Nestoras TODO Repository
+# CVin - Career Impact Network
 
-This repository contains strategic product documentation and deployable React applications for innovation projects.
+A React-based demonstration of the CVin platform for impact-driven career development and peer review.
 
-## 📁 Repository Structure
+🔗 **[View Live Demo](https://neonestoras.github.io/CVin)**
 
-```
-├── docs/                    # Product whitepapers & documentation
-│   ├── CV_Clinic.md
-│   ├── HARMONIA_Social_Medicine_Platform_Proposal.md
-│   └── README.md
-│
-├── apps/                    # Independently deployable React applications
-│   └── cvin-demo-jsx/            # CVin Platform Demo
-│       ├── public/
-│       ├── src/
-│       ├── package.json
-│       ├── .gitignore
-│       └── README.md
-│
-└── README.md                # This file
-```
+📄 **[CVin Whitepaper](https://github.com/neonestoras/Sidequest-Ossuary/blob/main/CV_Clinic.md)**
 
-## 📚 Documentation
+## Getting Started
 
-All product proposals and technical documentation are located in `/docs/`:
-- **CV_Clinic.md** - Youth employment platform with impact-based rewards
-- **HARMONIA_Social_Medicine_Platform_Proposal.md** - Music-based loneliness mitigation platform
+### Prerequisites
+- Node.js 14+
+- npm or yarn
 
-## 🚀 Applications
+### Installation
 
-### CVin JSX Demo (`apps/cvin-demo-jsx`)
-
-An interactive React demonstration of the CVin platform showcasing:
-- Social feed with career achievements
-- CV review and feedback system
-- Personal progress tracking
-- Mentor impact portfolio
-- Review queue management
-- Organization dashboard
-- Community recognition wall
-
-**Local Development:**
 ```bash
 cd apps/cvin-demo-jsx
 npm install
+```
+
+### Running Locally
+
+```bash
 npm start
 ```
 
-**Deploy to Vercel:**
-1. Connect repo to Vercel
-2. Set root directory to `apps/cvin-demo-jsx`
-3. Deploy
+Opens [http://localhost:3000](http://localhost:3000) in your browser.
 
-## 🛠️ Adding New Projects
+### Building for Production
 
-To add a new React application:
+```bash
+npm run build
+```
 
-1. Create `/apps/project-name/` directory
-2. Copy the structure from `/apps/cvin-demo-jsx/`
-3. Update `package.json` with your project name and dependencies
-4. Replace `src/App.jsx` with your component
-5. Configure Vercel to deploy from `/apps/project-name/`
+Builds the app for production to the `build` folder.
 
-## 📋 Project Ideas
+## Deployment
 
-- **CV_Clinic** - Full platform implementation for youth employment
-- **HARMONIA** - Music-based social platform with matching engine
+### Deploying to GitHub Pages
 
-## 🔗 Resources
+```bash
+npm run deploy
+```
 
-- [Vercel Monorepo Deployment](https://vercel.com/docs/concepts/monorepos/introduction)
-- [React Documentation](https://react.dev)
-- [Create React App](https://create-react-app.dev)
+This builds the app and automatically deploys it to GitHub Pages. The live demo is available at [https://neonestoras.github.io/CVin](https://neonestoras.github.io/CVin).
 
-## 📝 License
+### Environment Variables
 
-Private repository
+Currently no environment variables are required.
+
+## Project Structure
+
+```
+src/
+├── App.jsx         (Main demo component)
+└── index.js        (React entry point)
+
+public/
+└── index.html      (HTML entry point)
+```
+
+## Features
+
+- 7-page demo covering:
+  1. Social Feed
+  2. CV Review System
+  3. Personal Progress Tracking
+  4. Impact Portfolio (Mentor View)
+  5. Review Queue Management
+  6. Organization Dashboard
+  7. Showcase & Recognition
+
+## Technologies
+
+- React 18
+- Recharts (data visualization)
+- Lucide React (icons)
+- Custom CSS-in-JS styling
